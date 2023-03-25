@@ -54275,6 +54275,7 @@ $S:0}
 A.PQ.prototype={
 $0(){var s=document.createElement("a")
 s.href="assets/files/cv.pdf"
+s.type="pdf"
 s.download="Isaac Benavides CV"
 s.click()
 return null},
